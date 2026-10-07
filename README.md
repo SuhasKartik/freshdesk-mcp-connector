@@ -999,26 +999,26 @@ This provides confidence that the connector's major layers work together correct
 
 # 26. Assignment Requirement Coverage
 
-| Assignment Requirement          `Implementation`              | 
+| Assignment Requirement          `Implementation`                | 
 |---|---|
-| Choose a merchant tool          Freshdesk                     | 
-| Private connector               Freshdesk-specific MCP server |
-| Agent can read merchant data    Ticket list/search/get tools  |
-| Authentication                  Freshdesk API key             |
-| List primitive                  `list_tickets`                |
-| Get primitive                   `get_ticket`                  |
-| Search primitive                `search_tickets`              |
-| Rate-limit handling             HTTP 429 retry + backoff      |
-| MCP tool specification          MCP tool definitions + README |
-| Agent capabilities              Documented                    |
-| Agent limitations               Documented                    |
-| Setup instructions              Included                      |
-| Run instructions                Included                      |
-| Assumptions                     Included                      |
-| Limitations                     Included                      |
-| Credentials excluded            Yes                           |
-| Real customer data excluded     Yes                           |
-| Automated tests                 29 passing tests              |   
+| Choose a merchant tool          `Freshdesk`                     | 
+| Private connector               `Freshdesk-specific MCP server` |
+| Agent can read merchant data    `Ticket list/search/get tools`  |
+| Authentication                  `Freshdesk API key`             |
+| List primitive                  `list_tickets`                  |
+| Get primitive                   `get_ticket`                    | 
+| Search primitive                `search_tickets`                |
+| Rate-limit handling             `HTTP 429 retry + backoff`      |
+| MCP tool specification          `MCP tool definitions + README` |
+| Agent capabilities              `Documented`                    |
+| Agent limitations               `Documented`                    |
+| Setup instructions              `Included`                      |
+| Run instructions                `Included`                      |
+| Assumptions                     `Included`                      |
+| Limitations                     `Included`                      |
+| Credentials excluded            `Yes`                           |
+| Real customer data excluded     `Yes`                           |
+| Automated tests                 `29 passing tests`              |   
 
 ---
 
