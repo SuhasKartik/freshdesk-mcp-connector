@@ -1,0 +1,26 @@
+[
+    {
+      "id": 1001,
+      "subject": "Unable to log in",
+      "description": "I cannot access my account.",
+      "status": "Open",
+      "priority": "High",
+      "requester": "alex@example.com"
+    },
+    {
+      "id": 1002,
+      "subject": "Payment failed",
+      "description": "My payment was declined.",
+      "status": "Pending",
+      "priority": "Medium",
+      "requester": "sam@example.com"
+    },
+    {
+      "id": 1003,
+      "subject": "App crashes on startup",
+      "description": "The application closes unexpectedly.",
+      "status": "Open",
+      "priority": "Urgent",
+      "requester": "jordan@example.com"
+    }
+  ]

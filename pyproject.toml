@@ -1,0 +1,27 @@
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "freshdesk-mcp-connector"
+version = "0.1.0"
+description = "MCP connector for Freshdesk"
+requires-python = ">=3.11"
+dependencies = [
+    "mcp[cli]>=1, <2",
+    "httpx",
+    "pydantic",
+    "pydantic-settings",
+    "python-dotenv"
+]
+
+[project.optional-dependencies]
+dev = ["pytest", "pytest-asyncio"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+asyncio_mode = "auto"
