@@ -999,7 +999,7 @@ This provides confidence that the connector's major layers work together correct
 
 # 26. Assignment Requirement Coverage
 
-| Assignment Requirement          Implementation| 
+| Assignment Requirement          `Implementation`              | 
 |---|---|
 | Choose a merchant tool          Freshdesk                     | 
 | Private connector               Freshdesk-specific MCP server |
